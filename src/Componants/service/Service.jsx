@@ -2,11 +2,15 @@ import React from 'react'
 import "./service.css"
 import Single from './Single'
 import ServiceImg from './ServiceImg'
+import Header from '../header/Header'
+import Footer from '../footer/Footer'
+
 
 export default function Service() {
     return (
         <>
-            <div className="service">
+        <Header/>
+            <div className="services">
                 <div className="container">
                     <div className="row">
 
@@ -70,6 +74,7 @@ export default function Service() {
                     </div>
                 </div>
             </div>
+            <Footer/>
         </>
     )
 }

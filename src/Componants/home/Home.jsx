@@ -1,9 +1,13 @@
 import React from 'react'
+import Footer from './../footer/Footer.jsx'
 import "./home.css"
+import Header from '../header/Header.jsx'
+
 
 export default function Home() {
   return (
     <>
+    <Header/>
     <div className="container mt-5">
         <div className="row mb-5">
             <div className="col-lg-6 col-md-12">
@@ -28,107 +32,130 @@ export default function Home() {
             <div className="container">
                 <div className="row">
                     <div className="col-lg-2">
-                        <a class="umn col-xs-6" id="grayscale"><img className="img" src="./image/home/Untitled-16.jpg"/></a>
+                        <div class="umn col-xs-6" id="grayscale"><img className="img" src="./image/home/Untitled-16.jpg" alt="" /></div>
                     </div>
                     <div className="col-lg-2">
-                        <a class="umn col-xs-6" id="grayscale"><img className="img" src="./image/home/Untitled-12.jpg"/></a>
+                        <div class="umn col-xs-6" id="grayscale"><img className="img" src="./image/home/Untitled-12.jpg"  alt=""/></div>
                     </div>
                     <div className="col-lg-2">
-                        <a class="umn col-xs-6" id="grayscale"><img className="img" src="./image/home/Untitled-15.jpg"/></a>
+                        <div class="umn col-xs-6" id="grayscale"><img className="img" src="./image/home/Untitled-15.jpg"  alt=""/></div>
                     </div>
                     <div className="col-lg-2">
-                        <a class="umn col-xs-6" id="grayscale"><img className="img" src="./image/home/Untitled-13.jpg"/></a>
+                        <div class="umn col-xs-6" id="grayscale"><img className="img" src="./image/home/Untitled-13.jpg"  alt=""/></div>
                     </div>
                     
                     <div className="col-lg-2">
-                        <a class="umn col-xs-6" id="grayscale"><img className="img" src="./image/home/Untitled-20.jpg"/></a>
+                        <div class="umn col-xs-6" id="grayscale"><img className="img" src="./image/home/Untitled-20.jpg"  alt=""/></div>
                     </div>
                     <div className="col-lg-2">
-                        <a class="umn col-xs-6" id="grayscale"><img className="img" src="./image/home/Untitled-14.jpg"/></a>
+                        <div class="umn col-xs-6" id="grayscale"><img className="img" src="./image/home/Untitled-14.jpg"  alt=""/></div>
                     </div>                
                 </div>
             </div>
         </div>
     </div>
-    {/* <div className="all">
-        <div className="row">
-            <div className="col-lg-6">
-            <h2><span>The numbers</span><br /> say it all</h2>
-
+    <div class="all m-5">
+    <div class="container-fluid">
+        <div class="row">
+            <div class="col-lg-6">
+                <h1><span>The numbers</span><br /> say it all</h1>
             </div>
+            <div class="col-lg-3">
+                <h3>256+ <br />
+                    <span>Finished <br />Projects</span>
+                </h3>
+                <hr /> 
+                <h3>18+ <br />
+                    <span>Created  <br />Jobs</span>
+                </h3>
+                
+            </div>
+            <div class="col-lg-3">
+                <h3>148+ <br />
+                    <span>Happy <br />Customers</span>
+                </h3>
+                <hr /> 
+                <h3>5+ <br />
+                    <span>Years Of <br />Experience</span>
+                </h3>
+                
+            </div>
+            
         </div>
-    </div> */}
+    </div>
+</div>
+
     <div class="box">
-        <div class="container">
+        <div class="container-fulid">
             <img class='logo' src="./image/home/logo.png" alt="" />
             <h3>Technologies We Work With</h3>
             <div class="box-img mt-5">
                 <div class="box-1">
-                    <img src="./image/home/html-5.png" alt="" />
+                    <center><img src="./image/home/html-5.png" alt="" /></center>
                 </div>
                 <div class="box-1">
-                    <img src="./image/home/css-3.png" alt="" />
+                    <center><img src="./image/home/css-3.png" alt="" /></center>
                 </div>
                 <div class="box-1">
-                    <img src="./image/home/javascript.png" alt="" />
+                    <center><img src="./image/home/javascript.png" alt="" /></center>
                 </div>
                 <div class="box-1">
-                    <img src="./image/home/bootstrap.png" alt="" />
+                    <center><img src="./image/home/bootstrap.png" alt="" /></center>
                 </div>
                 <div class="box-1">
-                    <img src="./image/home/react.png" alt="" />
+                    <center><img src="./image/home/react.png" alt="" /></center>
                 </div>
                 <div class="box-1">
-                    <img src="./image/home/Frame.png" alt="" />
+                    <center><img src="./image/home/Frame.png" alt="" /></center>
                 </div>
                 <div class="box-1">
-                    <img src="./image/home/Flutter 1.png" alt="" />
-                </div>
-            </div>
-            <div class="box-img mt-5">
-                <div class="box-1">
-                    <img src="./image/home/PHP-logo 1.png" alt="" />
-                </div>
-                <div class="box-1">
-                    <img src="./image/home/mysql-official 1.png" alt="" />
-                </div>
-                <div class="box-1">
-                    <img src="./image/home/nodejs-ar21 1.png" alt="" />
-                </div>
-                <div class="box-1">
-                    <img src="./image/home/java.png" alt="" />
-                </div>
-                <div class="box-1">
-                    <img src="./image/home/csharp.png" alt="" />
-                </div>
-                <div class="box-1">
-                    <img src="./image/home/python.png" alt="" />
-                </div>
-                <div class="box-1">
-                    <img src="./image/home/apple.png" alt="" />
+                    <center><img src="./image/home/Flutter 1.png" alt="" /></center>
                 </div>
             </div>
             <div class="box-img mt-5">
                 <div class="box-1">
-                    <img src="./image/home/aws.png" alt="" />
+                    <center><img src="./image/home/PHP-logo 1.png" alt="" /></center>
                 </div>
                 <div class="box-1">
-                    <img src="./image/home/Vector.png" alt="" />
+                    <center><img src="./image/home/mysql-official 1.png" alt="" /></center>
                 </div>
                 <div class="box-1">
-                    <img src="./image/home/clould.png" alt="" />
+                    <center><img src="./image/home/nodejs-ar21 1.png" alt="" /></center>
                 </div>
                 <div class="box-1">
-                    <img src="./image/home/Go-Daddy.png" alt="" />
+                    <center><img src="./image/home/java.png" alt="" /></center>
                 </div>
                 <div class="box-1">
-                    <img src="./image/home/ibm.png" alt="" />
+                    <center><img src="./image/home/csharp.png" alt="" /></center>
                 </div>
                 <div class="box-1">
-                    <img src="./image/home/image 57.png" alt="" />
+                    <center><img src="./image/home/python.png" alt="" /></center>
                 </div>
                 <div class="box-1">
-                    <img src="./image/home/hostinger.png" alt="" />
+                    <center><img src="./image/home/apple.png" alt="" /></center>
+                </div>
+            </div>
+            <div class="box-img mt-5">
+                <div class="box-1">
+                    <center><img src="./image/home/aws.png" alt="" /></center>
+                </div>
+                <div class="box-1">
+                    <center><img src="./image/home/Vector.png" alt="" /></center>
+                </div>
+                <div class="box-1">
+                    <center><img src="./image/home/clould.png" alt="" /></center>
+                </div>
+                <div class="box-1">
+                    <center><img src="./image/home/Go-Daddy.png" alt="" /></center>
+                </div>
+                <div class="box-1">
+                    <center><img src="./image/home/ibm.png" alt="" /></center>
+                </div>
+                <div class="box-1">
+                    <center><img src="./image/home/image 57.png" alt="" /></center>
+                </div>
+                <div class="box-1">
+                    <center><img src="./image/home/hostinger.png" alt="" /></center>
                 </div>
             </div>
         </div>
@@ -200,31 +227,146 @@ export default function Home() {
         <div className="container">
         <img class='logo' src="./image/home/logo.png" alt="" />
             <h3>We Serve Industries</h3>
+            <button className='btn'>View More</button>
             <div class="box-img mt-5">
                 <div class="box-1">
-                    <img src="./image/home/html-5.png" alt="" />
+                    <center><img src="./image/home/Vector (2).png" alt="" /></center>
                     <h6>Retail, Ecommerce</h6>
                 </div>
                 <div class="box-1">
-                    <img src="./image/home/css-3.png" alt="" />
+                    <center><img src="./image/home/SvgjsSvg1498.png" alt="" /></center>
                     <h6>Education & e-learning</h6>
                 </div>
                 <div class="box-1">
-                    <img src="./image/home/javascript.png" alt="" />
+                    <center><img src="./image/home/SvgjsSvg1551.png" alt="" /></center>
                     <h6>Healthcare & Fitness</h6>
                 </div>
                 <div class="box-1">
-                    <img src="./image/home/bootstrap.png" alt="" />
+                    <center><img src="./image/home/Frame (4).png" alt="" /></center>
                     <h6>Logistics & Distribution</h6>
                 </div>
                 <div class="box-1">
-                    <img src="./image/home/react.png" alt="" />
+                    <center><img src="./image/home/SvgjsSvg1563.png" alt="" /></center>
+                    <h6>Social Networking</h6>
+                </div>
+            </div>
+            <div class="box-img mt-5">
+                <div class="box-1">
+                    <center><img src="./image/home/SvgjsSvg1591.png" alt="" /></center>
+                    <h6>Retail, Ecommerce</h6>
+                </div>
+                <div class="box-1">
+                    <center><img src="./image/home/Group.png" alt="" /></center>
+                    <h6>Education & e-learning</h6>
+                </div>
+                <div class="box-1">
+                    <center><img src="./image/home/Frame (5).png" alt="" /></center>
+                    <h6>Healthcare & Fitness</h6>
+                </div>
+                <div class="box-1">
+                    <center><img src="./image/home/Frame (6).png" alt="" /></center>
+                    <h6>Logistics & Distribution</h6>
+                </div>
+                <div class="box-1">
+                    <center><img src="./image/home/Frame.svg" alt="" /></center>
                     <h6>Social Networking</h6>
                 </div>
             </div>
         </div>
     </div>
-
+    <div className="meet">
+        <div className="container">
+            <img class='logo' src="./image/home/logo.png" alt="" />
+            <h3>Meet Our Team</h3>
+            <div class="box-img mt-5">
+                <div class="box-1">
+                    <center><img src="./image/home/image 44 2.png" alt="" /></center>
+                </div>
+                <div class="box-1">
+                    <center><img src="./image/home/image 44 2.png" alt="" /></center>
+                </div>
+                <div class="box-1">
+                    <center><img src="./image/home/image 44.png" alt="" /></center>
+                </div>
+                
+            </div>
+        </div>
+    </div>
+    <div className="test">
+        <div className="container">
+            <img class='logo' src="./image/home/logo.png" alt="" />
+            <h3>Testimonial</h3>
+            <div className="row mt-5">
+                <div className="col-lg-4">
+                    <div className="card mt-3">
+                        <div className="card-body">
+                            <div className="row">
+                                <div className="col-3">
+                                    <img className='rounded-circle' src="./image/home/image 47.png" alt="" />
+                                </div>
+                                <div className="col-9 mt-3">
+                                    <h5>John Carter</h5>
+                                    <p>CEO & Co-Founder</p>
+                                </div>
+                            </div>
+                            <p className='mt-3'>
+                            Sagittis egestas suscipit pharetra nostra pulvinar curabitur rhoncus aliquet. Aliquam eros pharetra, nam dictumst eu facilisis maecenas ut. 
+                            </p>
+                        </div>
+                    </div>
+                </div>
+                <div className="col-lg-4">
+                    <div className="card mt-3">
+                        <div className="card-body">
+                            <div className="row">
+                                <div className="col-3">
+                                    <img className='rounded-circle' src="./image/home/image 47.png" alt="" />
+                                </div>
+                                <div className="col-9 mt-3">
+                                    <h5>John Carter</h5>
+                                    <p>CEO & Co-Founder</p>
+                                </div>
+                            </div>
+                            <p className='mt-3'>
+                            Sagittis egestas suscipit pharetra nostra pulvinar curabitur rhoncus aliquet. Aliquam eros pharetra, nam dictumst eu facilisis maecenas ut. 
+                            </p>
+                        </div>
+                    </div>
+                </div>
+                <div className="col-lg-4">
+                    <div className="card mt-3">
+                        <div className="card-body">
+                            <div className="row">
+                                <div className="col-3">
+                                    <img className='rounded-circle' src="./image/home/image 47.png" alt="" />
+                                </div>
+                                <div className="col-9 mt-3">
+                                    <h5>John Carter</h5>
+                                    <p>CEO & Co-Founder</p>
+                                </div>
+                            </div>
+                            <p className='mt-3'>
+                            Sagittis egestas suscipit pharetra nostra pulvinar curabitur rhoncus aliquet. Aliquam eros pharetra, nam dictumst eu facilisis maecenas ut. 
+                            </p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div className="talk">
+        <div className="container">
+            <div className="row">
+                <div className="col-lg-6">
+                    <h1>Let's talk!</h1>
+                </div>
+                <div className="col-lg-6">
+                    <center><img src="./image/home/contact-us-animate 1.png" alt="" /></center>
+                </div>
+            </div>
+        </div>
+    </div>
+    <Footer/>
     
     </>
     
