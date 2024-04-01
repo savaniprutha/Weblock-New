@@ -1,0 +1,51 @@
+
+.service {
+    background: #fff;
+}
+
+.service .text {
+    margin: 40px 0;
+    padding: 0 50px;
+}
+.service .text h1 {
+    font-family: Montserrat;
+    color: #1099C5;
+    font-size: 32px;
+    font-weight: 700;
+    text-align: left;
+    margin-top: 80px;
+    text-transform: uppercase;
+}
+
+.service .text p {
+    font-family: Lato;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 25px;
+    text-align: justify;
+    text-transform: capitalize;
+}
+
+.service .text button a {
+    text-decoration: none;
+    color: white;
+    font-family: Arial Rounded MT Bold;
+    font-size: 21px;
+    font-weight: 400;
+    line-height: 24px;
+    letter-spacing: 1px;
+}
+
+.service .text button {
+    border: none;
+    border-radius: 5px;
+    box-shadow: 0px 4px 4px 0px #00000040;
+    background: #000C1D;
+    padding: 5px 20px;
+}
+
+.service img{
+    border-radius: 50px;
+    width:80%;
+    margin: 40px 0;
+}
