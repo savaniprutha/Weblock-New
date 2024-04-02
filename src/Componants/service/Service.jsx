@@ -11,6 +11,10 @@ export default function Service() {
         <>
         <Header/>
             <div className="services">
+                <div className="bg">
+                    <h2>OUR SERVICES</h2>
+                    <p>Convert your idea into reality with our enthusiastic It solutions</p>
+                </div>
                 <div className="container">
                     <div className="row">
 
