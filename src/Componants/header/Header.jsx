@@ -26,17 +26,21 @@ export default function Header() {
         </div>
         <ul class="nav">
           <li class="nav-item">
-            <Link class="nav-link active" aria-current="page" to="/">home</Link>
+            <Link class="nav-link active" aria-current="page" to="/">Company</Link>
           </li>
           <li class="nav-item">
-            <Link class="nav-link" to="/service">service</Link>
+            <Link class="nav-link" to="/service">Service</Link>
           </li>
           <li class="nav-item">
-            <Link class="nav-link" to="/contact"> contact</Link>
+            <Link class="nav-link" to="/contact"> Technology</Link>
           </li>
           <li class="nav-item">
-            <Link class="nav-link ">Disabled</Link>
+            <Link class="nav-link" to="/contact"> Staff-Augmentation</Link>
           </li>
+          <li class="nav-item">
+            <Link class="nav-link" to="/contact"> Contact  Us</Link>
+          </li>
+          
         </ul>
       </header>
     </>

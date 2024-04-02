@@ -7,10 +7,14 @@
 body{
     color: white;
     font-family: Inria Serif;
-    background-color: #000C1D;
+    /* background-color: #000C1D; */
+}
+.company{
+  background-color: #000C1D;
 }
 .home{
     margin-top: 80px;
+
 }
 .home p{
     font-size: 20px;

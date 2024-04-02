@@ -23,15 +23,15 @@ header {
   }
 
 
-  nav a {
+  .nav .nav-link {
     text-decoration: none;
     color: white; 
     font-weight: bold;
   }
-  nav a:hover{
+  .nav .nav-link:hover{
     color: white;
   }
-  .scrolled nav a{
+  .scrolled .nav .nav-link{
     color: black;
   }
 

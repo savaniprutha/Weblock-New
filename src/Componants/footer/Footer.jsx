@@ -4,7 +4,7 @@ import "./footer.css"
 export default function Footer () {
   return (
     <>
-    <div className="footer mb-5">
+    <div className="footer py-5">
         <div className="container">
             <div className="row mt-5">
                 <div className="col-lg-4">
