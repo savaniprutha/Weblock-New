@@ -61,20 +61,22 @@ export default function Home() {
                 <h1><span>The numbers</span><br /> say it all</h1>
             </div>
             <div class="col-lg-3">
+                <div className="finish">
                 <h3>256+ <br />
                     <span>Finished <br />Projects</span>
                 </h3>
-                <hr /> 
+                <hr className='hr' /> 
                 <h3>18+ <br />
                     <span>Created  <br />Jobs</span>
                 </h3>
+                </div>
                 
             </div>
             <div class="col-lg-3">
                 <h3>148+ <br />
                     <span>Happy <br />Customers</span>
                 </h3>
-                <hr /> 
+                <hr className='hr' /> 
                 <h3>5+ <br />
                     <span>Years Of <br />Experience</span>
                 </h3>
@@ -86,7 +88,7 @@ export default function Home() {
 </div>
 
     <div class="box">
-        <div class="container-fulid">
+        <div class="container">
             <img class='logo' src="./image/home/logo.png" alt="" />
             <h3>Technologies We Work With</h3>
             <div class="box-img mt-5">
