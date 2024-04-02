@@ -4,11 +4,13 @@ import Single from './Single'
 import ServiceImg from './ServiceImg'
 import Header from '../header/Header'
 import Footer from '../footer/Footer'
+import Banner from './Banner'
 
 
 export default function Service() {
     return (
         <>
+        <Banner />
         <Header/>
             <div className="services">
                 <div className="bg">
