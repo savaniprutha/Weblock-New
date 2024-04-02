@@ -35,8 +35,9 @@ export default function Header() {
             <Link class="nav-link" to="/contact"> contact</Link>
           </li>
           <li class="nav-item">
-            <Link class="nav-link ">Disabled</Link>
+            <Link class="nav-link" to="/web-development"> web Development</Link>
           </li>
+          
         </ul>
       </header>
     </>
