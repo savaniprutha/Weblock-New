@@ -59,6 +59,9 @@
 .contact .map{
     width: 100%;
 }
+.place-card-large{
+    display: none;
+}
 .contact .help{
     color: black;
 }

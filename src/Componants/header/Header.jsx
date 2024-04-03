@@ -35,10 +35,10 @@ export default function Header() {
             <Link class="nav-link" to="/contact"> Technology</Link>
           </li>
           <li class="nav-item">
-            <Link class="nav-link" to="/contact"> Staff-Augmentation</Link>
+            <Link class="nav-link" to="/web-development"> Web developer</Link>
           </li>
           <li class="nav-item">
-            <Link class="nav-link ">Disabled</Link>
+            <Link class="nav-link" to="/contact"> Contact-Us</Link>
           </li>
           
         </ul>

@@ -10,7 +10,7 @@ import Banner from './Banner'
 export default function Service() {
     return (
         <>
-        <Banner />
+        
         <Header/>
             <div className="services">
                 <div className="bg">
@@ -80,6 +80,7 @@ export default function Service() {
                     </div>
                 </div>
             </div>
+            <Banner />
             <Footer/>
         </>
     )

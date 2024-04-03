@@ -1,0 +1,94 @@
+.web {
+    color: black;
+    font-weight: bolder;
+    text-align: center;
+}
+
+.web .box {
+    border: 1px solid #DDDDDD;
+    height: 100%;
+    padding: 20px;
+}
+
+.web .box:hover {
+    box-shadow: 0 4px 8px 0 black;
+    border: 1px solid #1A76D166;
+}
+
+.web .box h5 {
+    font-weight: bolder;
+}
+
+.web .box p {
+    color: #696969;
+}
+
+.eng {
+    background-color: #000C1D;
+}
+
+.eng h2 {
+    text-align: center;
+}
+
+hr {
+    width: 10%;
+}
+
+.eng .box {
+
+    /* height: 100%; */
+    padding: 30px;
+}
+
+.eng .box h5 {
+    text-align: center;
+    font-weight: bolder;
+}
+
+.eng button {
+    padding: 10px;
+    border: none;
+}
+
+.eng button:hover {
+    box-shadow: 0 4px 4px 0 white;
+}
+
+.boost{
+    color: black;
+}
+
+.boost h3 {
+    font-weight: bolder;
+}
+
+.boost p {
+    color: #696969;
+}
+
+.boost h5{
+    font-weight: bolder;
+}
+
+.boost .chek {
+    display: flex;
+    align-items: center; 
+    gap: 10px; 
+  }
+.boost .chek img {
+    align-self: flex-start; /* Align image at the start */
+  }
+
+.boost .chek p {
+    margin: 0; 
+  }
+  .boost button{
+    /* border: none; */
+    padding: 8px;
+    background-color: #fff;
+    font-weight: bolder;
+  }
+  .boost button:hover{
+    box-shadow: 0 4px 4px 0 black;
+  }
