@@ -1,26 +1,29 @@
 import React from 'react'
 import Banner from './Banner'
 import './webdevlopment.css'
+import Header from '../header/Header'
+import Footer from '../footer/Footer'
 
 export default function WebDevelopment() {
   return (
     <>
+    <Header/>
       <Banner />
-      <div>
-      <marquee
-        behavior="scroll"
-        direction="left"
-        scrollamount={3}
-        style={{ width: "100%" }}
-      >
-        <img src="./image/webdevlopment/Untitled-12.jpg" alt="Image 1" />
-        <img src="./image/webdevlopment/Untitled-13.jpg" alt="Image 2" />
-        <img src="./image/webdevlopment/Untitled-14.jpg" alt="Image 3" />
-        <img src="./image/webdevlopment/Untitled-15.jpg" alt="Image 4" />
-        <img src="./image/webdevlopment/Untitled-16.jpg" alt="Image 5" />
-      </marquee>
+        {/* <div>
+        <marquee
+          behavior="scroll"
+          direction="up"
+          scrollamount={8}
+          style={{ width: "100%" }}
+        >
+          <img className='ma-img' src="./image/webdevlopment/Untitled-12.jpg" alt="Image 1" />
+          <img className='ma-img' src="./image/webdevlopment/Untitled-13.jpg" alt="Image 2" />
+          <img className='ma-img' src="./image/webdevlopment/Untitled-14.jpg" alt="Image 3" />
+          <img className='ma-img' src="./image/webdevlopment/Untitled-15.jpg" alt="Image 4" />
+          <img className='ma-img' src="./image/webdevlopment/Untitled-16.jpg" alt="Image 5" />
+        </marquee>
 
-      </div>
+        </div> */}
       <div className="container">
         <div className="web">
           <h2>Comprehensive Web Design and Development Services</h2>
@@ -145,7 +148,63 @@ export default function WebDevelopment() {
             </div>
           </div>
         </div>
+      </div> 
+      <div className="get-touch">
+        <div className="container">
+          <h2 className='py-5'>Get In Touch With Best Software <br /> Consulting Company</h2>
+          <div className="row py-5">
+            <div className="col-lg-4 mb-3">
+              <input
+                type="name"
+                class="form-control"
+                id="exampleFormControlInput1"
+                placeholder="Your Name"
+                required
+              />
+            </div>
+            <div className="col-lg-4 mb-3">
+              <input
+                type="email"
+                class="form-control"
+                id="exampleFormControlInput1"
+                placeholder="Email Address"
+                required
+              />
+            </div>
+            <div className="col-lg-4 mb-3">
+              <input
+                type="name"
+                class="form-control"
+                id="exampleFormControlInput1"
+                placeholder="Phone Number"
+                required
+              />
+            </div>
+            <div class="mb-3">
+                <textarea
+                  class="form-control"
+                  id="exampleFormControlTextarea1"
+                  placeholder="Message"
+                  rows="3"
+                  required
+                ></textarea>
+              </div>
+              <center><button>INQUIRE NOW</button></center>
+              <div className="col-4"></div>
+              <div className="col-4">
+                <div class="card">
+                  <div class="card-body">
+                    <h5 class="card-title"><i class="fa-regular fa-envelope"></i> Info@Weblockinfosoft.com</h5><hr />
+                    <p class="card-text">With supporting text below as a natural lead-in to additional content.</p>
+                    
+                  </div>
+                </div>
+              </div>
+          </div>
+        </div>
       </div>
+
+      <Footer />
     </>
   )
 }

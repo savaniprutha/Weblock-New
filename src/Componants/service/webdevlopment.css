@@ -1,3 +1,13 @@
+marquee .ma-img{
+    border: 1px solid #FFFFFF;
+    width: 200px;
+    margin: 50px;
+    height: 100px;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px 0 #00000040;
+}
+
+
 .web {
     color: black;
     font-weight: bolder;
@@ -31,7 +41,7 @@
     text-align: center;
 }
 
-hr {
+.eng hr {
     width: 10%;
 }
 
@@ -49,6 +59,7 @@ hr {
 .eng button {
     padding: 10px;
     border: none;
+    border-radius: 5px;
 }
 
 .eng button:hover {
@@ -77,18 +88,45 @@ hr {
     gap: 10px; 
   }
 .boost .chek img {
-    align-self: flex-start; /* Align image at the start */
+    align-self: flex-start;
+    padding-top: 6px;
   }
 
 .boost .chek p {
     margin: 0; 
   }
   .boost button{
-    /* border: none; */
     padding: 8px;
     background-color: #fff;
     font-weight: bolder;
+    border-radius: 5px;
   }
   .boost button:hover{
     box-shadow: 0 4px 4px 0 black;
   }
+
+.get-touch{
+    background-color: #0E1934;
+}
+.get-touch h2{
+    text-align: center;
+    font-weight: bolder;
+    line-height: 50px;
+}
+.get-touch button{
+    border: none;
+    padding: 10px;
+    font-weight: bolder;
+    border-radius: 5px;
+}
+.get-touch button:hover{
+    box-shadow: 0 4px 8px 0 white;
+}
+.get-touch .card{
+    color: #656363;
+    text-align: center;
+}
+.get-touch .card i{
+    color: #0E1934;
+}
+

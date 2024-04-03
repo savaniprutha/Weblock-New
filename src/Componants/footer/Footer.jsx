@@ -29,7 +29,8 @@ export default function Footer () {
                 </div>
                 <div className="col-lg-4 mt-4">
                     <h5>Contact Information</h5>
-                    <li className='mt-4'><i class="fa-solid fa-envelope"></i> info@weblockinfosoft.com</li>
+                    <li className='mt-4'><i class="fa-solid fa-phone"></i> 081281 65664</li>
+                    <li><i class="fa-solid fa-envelope"></i> info@weblockinfosoft.com</li>
                     <li><i class="fa-solid fa-location-dot"></i> Headquater - 3 King William St, Adelaide SA 5000, Australia.</li>
                     <li><i class="fa-solid fa-location-dot"></i> Branch - 303-304 Golden Square, near D-Mart, Mota Varachha, Surat.</li>
                 </div>
