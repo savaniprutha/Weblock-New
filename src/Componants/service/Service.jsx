@@ -2,8 +2,6 @@ import React from 'react'
 import "./service.css"
 import Single from './Single'
 import ServiceImg from './ServiceImg'
-import Header from '../header/Header'
-import Footer from '../footer/Footer'
 import Banner from './Banner'
 
 
@@ -11,7 +9,6 @@ export default function Service() {
     return (
         <>
         
-        <Header/>
             <div className="services">
                 <div className="bg">
                     <h2>OUR SERVICES</h2>
@@ -81,7 +78,6 @@ export default function Service() {
                 </div>
             </div>
             <Banner />
-            <Footer/>
         </>
     )
 }
