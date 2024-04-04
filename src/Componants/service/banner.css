@@ -1,6 +1,7 @@
 .banner{
     background: url(../../../public/image/service/banner.png);
-    height: 80vh;
+    /* height: 80vh; */
+    background-size: cover;
 }
 .banner .banner-text h1{
     padding-top: 200px;
@@ -12,6 +13,7 @@
 .banner .banner-text h6{
     font-weight: bolder;
     line-height: 30px;
+    text-align: justify;
 }
 .banner .banner-text button{
     margin-top: 30px;
@@ -21,10 +23,12 @@
 }
 .banner .banner-text button h5{
     font-weight: bolder;
+    margin-bottom: 0;
 }
 .banner .banner-text .icon{
     font-size: 35px;
     color: #02A1D7;
+    padding-bottom: 100px;
 }
 
 /* marquee tag  */

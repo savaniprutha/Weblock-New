@@ -75,6 +75,7 @@ export default function Contact() {
         </div>
         <div className="map">
         <iframe
+            title="Location Map"
             src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d3718.802573906289!2d72.871405!3d21.239676!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3be04fb016975ecf%3A0x94cbc69558af4834!2sWeblock%20Infosoft!5e0!3m2!1sen!2sin!4v1712047705634!5m2!1sen!2sin"
             width="100%"
             height={450}
