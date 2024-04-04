@@ -35,20 +35,20 @@ export default function Banner(props) {
     <div className='portfolio-section'>
       <div className="images">
         <div className="image-slide">
-          <a href="/"><img src="./image/webdevlopment/Untitled-12.jpg" alt="" /></a>
-          <a href="/"><img src="./image/webdevlopment/Untitled-13.jpg" alt="" /></a>
-          <a href="/"><img src="./image/webdevlopment/Untitled-14.jpg" alt="" /></a>
-          <a href="/"><img src="./image/webdevlopment/Untitled-15.jpg" alt="" /></a>
-          <a href="/"><img src="./image/webdevlopment/Untitled-16.jpg" alt="" /></a>
-          <a href="/"><img src="./image/webdevlopment/Untitled-17.jpg" alt="" /></a>
+          <img src="./image/webdevlopment/Untitled-12.jpg" alt="" />
+          <img src="./image/webdevlopment/Untitled-13.jpg" alt="" />
+          <img src="./image/webdevlopment/Untitled-14.jpg" alt="" />
+          <img src="./image/webdevlopment/Untitled-15.jpg" alt="" />
+          <img src="./image/webdevlopment/Untitled-16.jpg" alt="" />
+          <img src="./image/webdevlopment/Untitled-17.jpg" alt="" />
         </div>
         <div className="image-slide">
-          <a href="/"><img src="./image/webdevlopment/Untitled-12.jpg" alt="" /></a>
-          <a href="/"><img src="./image/webdevlopment/Untitled-13.jpg" alt="" /></a>
-          <a href="/"><img src="./image/webdevlopment/Untitled-14.jpg" alt="" /></a>
-          <a href="/"><img src="./image/webdevlopment/Untitled-15.jpg" alt="" /></a>
-          <a href="/"><img src="./image/webdevlopment/Untitled-16.jpg" alt="" /></a>
-          <a href="/"><img src="./image/webdevlopment/Untitled-17.jpg" alt="" /></a>
+        <img src="./image/webdevlopment/Untitled-12.jpg" alt="" />
+          <img src="./image/webdevlopment/Untitled-13.jpg" alt="" />
+          <img src="./image/webdevlopment/Untitled-14.jpg" alt="" />
+          <img src="./image/webdevlopment/Untitled-15.jpg" alt="" />
+          <img src="./image/webdevlopment/Untitled-16.jpg" alt="" />
+          <img src="./image/webdevlopment/Untitled-17.jpg" alt="" />
         </div>
         
       </div>

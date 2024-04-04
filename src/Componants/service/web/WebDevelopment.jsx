@@ -218,7 +218,7 @@ export default function WebDevelopment() {
             </div>
           </div>
           <div className="row mt-5">
-            <div className="col-lg-4  mt-5">
+            <div className="col-lg-4 mt-5">
               <p>Regular updates are crucial for website security and performance, ensuring software and plugins are up-to-date to prevent vulnerabilities. Continuous content updates maintain user engagement and relevance, meeting evolving business needs. Consistent technical support and bug fixes ensure smooth functionality, enhancing user satisfaction and operational efficiency.</p>
             </div>
             <div className="col-lg-4">

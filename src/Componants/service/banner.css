@@ -87,7 +87,7 @@
     border: 1px solid #FFFFFF;
     width: 200px;
     margin: 50px;
-    height: 100px;
+    height: 100%;
     border-radius: 10px;
     box-shadow: 0 4px 8px 0 #00000040;
   }

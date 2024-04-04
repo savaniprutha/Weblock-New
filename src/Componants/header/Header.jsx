@@ -22,28 +22,32 @@ export default function Header() {
     <>
       <header className={scrolled ? "scrolled" : ""}>
         <div>
-          <img src={scrolled ? "./image/home/logo-2.png" : "./image/home/image 48.png"} alt="Company Logo" width="100" />
+          <Link to="/">
+            <img src={scrolled ? "./image/home/logo-2.png" : "./image/home/image 48.png"} alt="Company Logo" width="100" />
+          </Link>
         </div>
-        <ul class="nav">
-          <li class="nav-item">
-            <Link class="nav-link active" aria-current="page" to="/">Company</Link>
+        <ul className="nav">
+          <li className="nav-item">
+            <Link className="nav-link active" to="/">Company</Link>
           </li>
-          <li class="nav-item">
-            <Link class="nav-link" to="/service">Service</Link>
+          <li className="nav-item">
+            <Link className="nav-link" to="/service">Service</Link>
           </li>
-          <li class="nav-item">
-            <Link class="nav-link" to="/contact"> Technology</Link>
+          <li className="nav-item dropdown">
+            <Link className="nav-link dropdown-toggle" to="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+              Technology
+            </Link>
+            <ul className="dropdown-menu" aria-labelledby="navbarDropdown">
+              <li><Link className="dropdown-item" to="/web-development">Web Developer</Link></li>
+              <li><Link className="dropdown-item" to="/mobile">Mobile Development</Link></li>
+            </ul>
           </li>
-          <li class="nav-item">
-            <Link class="nav-link" to="/web-development"> Web developer</Link>
+          <li className="nav-item">
+            <Link className="nav-link" to="/contact">Staff-Augmentation</Link>
           </li>
-          <li class="nav-item">
-            <Link class="nav-link" to="/Mobile"> Mobile Development</Link>
+          <li className="nav-item">
+            <Link className="nav-link" to="/contact">Contact Us</Link>
           </li>
-          <li class="nav-item">
-            <Link class="nav-link" to="/contact"> Contact-Us</Link>
-          </li>
-          
         </ul>
       </header>
     </>

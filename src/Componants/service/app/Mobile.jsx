@@ -1,6 +1,7 @@
 import React from 'react'
 import Banner from '../Banner'
 import './mobile.css'
+import Getin from '../Getin'
 
 export default function Mobile() {
   return (
@@ -66,7 +67,7 @@ export default function Mobile() {
                   </div>
                 </div>
               </div>
-              <div className="row  mt-5">
+              <div className="row mt-5">
                 <div className="col-lg-6">
                   <div className="box">
                     <h4>Mobile App Development Consulting</h4>
@@ -144,36 +145,103 @@ export default function Mobile() {
         <div className="other">
           <div className="container">
             <h2 className='mt-5'>Other Mobile Application Development Services</h2>
-            <div className="row">
+            <div className="row mt-5">
+              <div className="col-lg-3"></div>
+              <div className="col-lg-3">
+                <div className="chek">
+                  <img src="./image/webdevlopment/check-mark 1.png" alt="" />
+                  <h6 className='mb-4'> Mobile App Design</h6>
+                </div>
+                <div className="chek">
+                  <img src="./image/webdevlopment/check-mark 1.png" alt="" />
+                  <h6 className='mb-4'> Product design</h6>
+                </div>
+                <div className="chek">
+                  <img src="./image/webdevlopment/check-mark 1.png" alt="" />
+                  <h6 className='mb-4'> UI/UX Design</h6>
+                </div>
+                <div className="chek">
+                  <img src="./image/webdevlopment/check-mark 1.png" alt="" />
+                  <h6 className='mb-4'> Cloud App Development</h6>
+                </div>
+                <div className="chek">
+                  <img src="./image/webdevlopment/check-mark 1.png" alt="" />
+                  <h6 className='mb-4'> Mobile App Integration</h6>
+                </div>
+                <div className="chek">
+                  <img src="./image/webdevlopment/check-mark 1.png" alt="" />
+                  <h6 className='mb-4'> Legacy App Development</h6>
+                </div>
+              </div>
               <div className="col-lg-6">
                 <div className="chek">
                   <img src="./image/webdevlopment/check-mark 1.png" alt="" />
-                  <h6 className='mb-4'> Android Wear App Development</h6>
+                  <h6 className='mb-4'> Mobile App Modernization</h6>
                 </div>
                 <div className="chek">
                   <img src="./image/webdevlopment/check-mark 1.png" alt="" />
-                  <h6 className='mb-4'> Android Wear App Development</h6>
+                  <h6 className='mb-4'> Wearables App Development</h6>
                 </div>
                 <div className="chek">
                   <img src="./image/webdevlopment/check-mark 1.png" alt="" />
-                  <h6 className='mb-4'> Android Wear App Development</h6>
+                  <h6 className='mb-4'> Mobile App Testing and QA</h6>
                 </div>
                 <div className="chek">
                   <img src="./image/webdevlopment/check-mark 1.png" alt="" />
-                  <h6 className='mb-4'> Android Wear App Development</h6>
+                  <h6 className='mb-4'> Ongoing Maintenance and support</h6>
                 </div>
                 <div className="chek">
                   <img src="./image/webdevlopment/check-mark 1.png" alt="" />
-                  <h6 className='mb-4'> Android Wear App Development</h6>
+                  <h6 className='mb-4'> Enterprise Mobile App Development</h6>
                 </div>
-                <div className="chek">
-                  <img src="./image/webdevlopment/check-mark 1.png" alt="" />
-                  <h6 className='mb-4'> Android Wear App Development</h6>
+                
+              </div>
+            </div>
+          </div>
+        </div>
+        
+        <Getin/>
+        <div className="inno">
+          <div className="container">
+            <h2>Innovative Technologies to Enhance Your Mobile App's Future Potential</h2>
+            <div className="custom-hr">
+                <hr />
+            </div>
+            <div className="row mt-5">
+              <div className="col-lg-6">
+                <div className="box">
+                  <center center><img src="./image/app/AI.png" alt="" /></center>
+                  <h5 className='m-3'>Artificial Intelligence</h5>
+                  <p>With our AI expertise, we elevate your mobile app development experience by automating workflows and implementing cognitive problem-solving capabilities. Our solutions include chatbots, conversational UI, personalized alerts, real-time market trend analysis, healthcare diagnostics, and more, enhancing user experiences and driving innovation.</p>
+                </div>
+              </div>
+              <div className="col-lg-6">
+                <div className="box">
+                  <center center><img src="./image/app/chatbot.png" alt="" /></center>
+                  <h5 className='m-3'>Chatbots</h5>
+                  <p>Transform your sales funnel with our chatbot development expertise, scaling sales and service experiences seamlessly. Leverage AI-driven decision-making for real-time support, empowering your mobile app to manage queries, surveys, product recommendations, and more through advanced chatbot functionalities.</p>
+                </div>
+              </div>
+            </div>
+            <div className="row my-5">
+              <div className="col-lg-6">
+                <div className="box">
+                  <center center><img src="./image/app/VR.png" alt="" /></center>
+                  <h5 className='m-3'>Virtual Reality (VR)</h5>
+                  <p>Elevate customer experiences with our VR expertise in mobile apps, seamlessly blending virtual and real worlds. Our developers specialize in creating immersive videos, 3D apps, and AR/VR applications to engage users effectively.</p>
+                </div>
+              </div>
+              <div className="col-lg-6">
+                <div className="box">
+                  <center center><img src="./image/app/internet.png" alt="" /></center>
+                  <h5 className='m-3'>Internet of Things (IoT)</h5>
+                  <p>Connect your mobile app with end-users through our IoT development expertise, fostering deep engagement. Our IoT solutions enable seamless connections across homes, buildings/cities, assets, health monitoring, and more, enhancing user experiences.</p>
                 </div>
               </div>
             </div>
           </div>
         </div>
+
 
     </>
   )
