@@ -3,7 +3,7 @@ import './banner.css'
 
 export default function Banner(props) {
 
-  const {heading,title, desc ,button} = props;
+  const {heading,title, desc,desc2 ,button} = props;
 
   
   return (
@@ -16,7 +16,7 @@ export default function Banner(props) {
               <div className="banner-text">
                   <h1>{heading}</h1>
                   <p><span>{title}</span></p>
-                  <h6>{desc}
+                  <h6>{desc} <br /> {desc2}
                   </h6>
                   <button><h5>{button}</h5></button>
                   <div className='mt-5'>

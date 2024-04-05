@@ -51,6 +51,9 @@ export default function Getin() {
                 <div class="card">
                   <div class="card-body">
                     <h5 class="card-title"><i class="fa-regular fa-envelope"></i> Info@Weblockinfosoft.com</h5>
+                    <div className="custom-hr">
+                <hr />
+            </div>
                     <p class="card-text">Your success is assured!"</p>
                     <h6>We expedite digital product releases and ensure your success.</h6>
                   </div>

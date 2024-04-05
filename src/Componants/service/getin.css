@@ -6,6 +6,12 @@
     font-weight: bolder;
     line-height: 50px;
 }
+.get-touch .custom-hr{
+    width: 50%;
+    color: black;
+    margin: 0 auto;
+    text-align: center;
+}
 .get-touch button{
     border: none;
     padding: 10px;
