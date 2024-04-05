@@ -7,6 +7,7 @@ import WebDevelopment from "./Componants/service/web/WebDevelopment";
 import Mobile from "./Componants/service/app/Mobile";
 import Header from "./Componants/header/Header";
 import Footer from "./Componants/footer/Footer";
+import Software from "./Componants/service/software/Software";
 
 function App() {
   return (
@@ -19,6 +20,7 @@ function App() {
       <Route path="/contact" element={<Contact />} />
       <Route path="/web-development" element={<WebDevelopment />} />
       <Route path="/mobile" element={<Mobile />} />
+      <Route path="/software" element={<Software />} />
 
     </Routes>
 
