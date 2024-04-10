@@ -8,6 +8,7 @@ import Mobile from "./Componants/service/app/Mobile";
 import Header from "./Componants/header/Header";
 import Footer from "./Componants/footer/Footer";
 import Software from "./Componants/service/software/Software";
+import Ui from "./Componants/service/ui/Ui";
 
 function App() {
   return (
@@ -21,6 +22,8 @@ function App() {
       <Route path="/web-development" element={<WebDevelopment />} />
       <Route path="/mobile" element={<Mobile />} />
       <Route path="/software" element={<Software />} />
+      <Route path="/ui" element={<Ui />} />
+
 
     </Routes>
 

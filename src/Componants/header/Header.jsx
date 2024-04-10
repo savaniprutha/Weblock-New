@@ -41,6 +41,8 @@ export default function Header() {
               <li><Link className="dropdown-item" to="/web-development">Web Developer</Link></li>
               <li><Link className="dropdown-item" to="/mobile">Mobile Development</Link></li>
               <li><Link className="dropdown-item" to="/software">Software Development</Link></li>
+              <li><Link className="dropdown-item" to="/ui">UI/UX Development</Link></li>
+
             </ul>
           </li>
           <li className="nav-item">
